@@ -1,0 +1,1 @@
+export default function ScoreRing({score=0}){const safe=Math.max(0,Math.min(100,Number(score)||0));return <div className="score-ring" style={{'--score':`${safe*3.6}deg`}}><div className="score-ring-inner"><strong>{safe}</strong><span>out of 100</span></div></div>}

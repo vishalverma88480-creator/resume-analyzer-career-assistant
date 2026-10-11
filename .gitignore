@@ -1,0 +1,18 @@
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+
+# Database and uploaded files
+backend/resume_analyzer.db
+backend/uploads/*
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example

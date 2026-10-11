@@ -1,0 +1,2 @@
+import { FileSearch, CheckCircle2 } from 'lucide-react';
+export default function Loading(){return <div className="loading-panel"><div className="loader-icon"><FileSearch size={30}/></div><h2>Reviewing your resume</h2><p>Checking structure, skills, and career matches using predefined rules.</p><div className="loading-steps"><span><CheckCircle2 size={16}/> Reading your PDF</span><span className="loading-current"><i/> Checking resume sections</span><span className="muted"><i/> Preparing career suggestions</span></div></div>}
