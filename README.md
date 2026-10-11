@@ -4,8 +4,8 @@ A web-based application that analyzes resumes, calculates a resume-to-job skill 
 
 ## Live Demo
 
-- **Frontend:** https://resume-ai-analyzer-1-lzgp.onrender.com
-- **Backend:** https://resume-analyzer-career-assistant.onrender.com
+- **Frontend:** https://resume-analyzer-frontend-new.onrender.com
+- **Backend:** https://resume-analyzer-backend-new.onrender.com
 
 ## Features
 
