@@ -1,4 +1,5 @@
-const API = 'http://127.0.0.1:5000';
+export const API_URL =
+  import.meta.env.VITE_API_URL || "https://resume-analyzer-career-assistant.onrender.com";
 async function request(path, options = {}) {
   const response = await fetch(`${API}${path}`, options);
   const data = await response.json().catch(() => ({}));
